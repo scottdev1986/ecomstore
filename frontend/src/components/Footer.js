@@ -7,7 +7,7 @@ function Footer() {
             <Container>
                 <Row>
                     <Col className='text-center py-3'>
-                    Copyright &copy; EcomShop
+                    Copyright &copy; { new Date().getFullYear() } EcomShop
                     </Col>
                 </Row>
             </Container>
